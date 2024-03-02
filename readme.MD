@@ -6,13 +6,10 @@ This is the collection of apis for foodie. this apis will help you to integrate 
 
     1. npm install
     2. cd app
-    3. npx sequelize-cli db:migrate
-    4. npx sequelize-cli db:seed --seed=20240301202952-DeliveryBoy.js
-    5. 
-    2. create db in mysql ex :- vege_node
-    3. set devlopment in .env file
-    4. you will write start script in package.json ex :- nodemon index.js
-    5. run: npx sequelize-cli db:migrate            
+    3. create db in mysql ex :- test
+    4. npx sequelize-cli db:migrate
+    5. npx sequelize-cli db:seed --seed=20240301202952-DeliveryBoy.js
+    6. npx sequelize-cli db:seed --seed=20240302102012-Order.js        
 
 # Run Locally
 

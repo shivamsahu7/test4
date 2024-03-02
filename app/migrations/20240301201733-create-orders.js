@@ -19,6 +19,7 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       deliveryBoyId: {
+        allowNull: true,
         type: Sequelize.INTEGER,
       },
       createdAt: {
